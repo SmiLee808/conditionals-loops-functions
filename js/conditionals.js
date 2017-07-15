@@ -3,7 +3,17 @@
 * Write a conditional statement that prints out "Hi" + name
   if truthy, otherwise prints out "goodbye"
 */
-
+var name = "Cheryl"
+  function nametest(){
+   if (name==="Cheryl") {
+    return "Hi "+ name + "!";
+    }   
+    else{
+    return "goodbye";
+    }  
+}
+ 
+ console.log(nametest());
 
 /* HIGHER VALUE
 * Create a variable called "num1", assign it a value of 10
@@ -12,6 +22,19 @@
   prints out the higher value.
 */
 
+var num1 = 10;
+var num2 = 5;
+
+function compareNum(){
+
+  if (num1 > num2){
+    return num1; 
+  }
+  else {
+    return num2;
+  }
+}
+console.log(compareNum());
 
 /* AGE CHECKER [Look up logical/comparitive operators]
 * Create a variable named "age", assign it your age
@@ -22,6 +45,17 @@
   * other = print "Sorry your to young"
 */
 
+var age = 21;
+
+  if(age >= 16 && age < 18){
+      console.log('You are old enough to drive');
+  } else if (age >= 18 && age < 21){
+      console.log('You are old enough to vote');
+  } else if (age >= 21){
+      console.log('You are old enough to rent a car');
+  } else 
+      console.log("Sorry you're too young");
+  }
 
 /* GRADE CHECKER [Look up logical/comparitive operators]
 * Create a variable named "testScore", assign it a value between 0-100
@@ -33,4 +67,8 @@
   * 90-100 = print "You got an A, Your a rockstar"
   * other = print "Sorry we don't have a grade for that score "
 */
+
+//var testScore = 55
+//if(testScore >= 50 && testScore <60) 
+  //console
 
